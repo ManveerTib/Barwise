@@ -1,0 +1,32 @@
+{
+  "name": "barwise",
+  "version": "1.0.0",
+  "description": "Bar-model practice for Primary 5 Singapore Math word problems, with step-by-step drawn models, error-pattern detection and mastery tracking.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "verify": "node scripts/verify.mjs",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "singapore-math",
+    "bar-model",
+    "education",
+    "react"
+  ],
+  "author": "",
+  "dependencies": {
+    "@fontsource-variable/schibsted-grotesk": "^5.1.0",
+    "@fontsource/shantell-sans": "^5.1.0",
+    "@phosphor-icons/react": "^2.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10",
+    "vite-plugin-singlefile": "^2.0.3"
+  },
+  "type": "module",
+  "private": true
+}

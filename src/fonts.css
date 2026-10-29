@@ -1,0 +1,29 @@
+/* Self-hosted fonts (inlined into the build), latin subset only. */
+@font-face {
+  font-family: "Schibsted Grotesk";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 900;
+  src: url("@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Shantell Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("@fontsource/shantell-sans/files/shantell-sans-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Shantell Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("@fontsource/shantell-sans/files/shantell-sans-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Shantell Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("@fontsource/shantell-sans/files/shantell-sans-latin-700-normal.woff2") format("woff2");
+}
